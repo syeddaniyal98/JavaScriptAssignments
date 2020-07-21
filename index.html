@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <a href="#" onclick="display()">click</a>
+    <div>
+        <div>
+            <img src="img1.jpg" style="width: 100px; height: 200px;" onclick="meg()">
+        </div>
+        <div>
+            <img src="img2.jpg" style="width: 100px; height: 200px;" onclick="meg()">
+        </div>
+        <div>
+            <img src="img3.jpg" style="width: 100px; height: 200px;" onclick="meg()">
+        </div>
+        <div>
+            <img src="img4.jpg" style="width: 100px; height: 200px;" onclick="meg()">
+        </div>
+    </div>
+
+    <div>
+        <ol > 
+            <li id="ind1">john 10 <button onclick="del()">delete</button></li>
+        <li id="ind1">Doe 9 <button onclick="del()">delete</button></li>
+         <li id="ind1">Mark 10 <button onclick="del()">delete</button></li>
+         <li id="ind1">James 8 <button onclick="del()">delete</button></li></ol>
+
+    </div>
+
+
+
+    <div>
+        <div>
+            
+            <img src="img1.jpg" style="width: 100px; height: 200px;" onMouseover="src='img2.jpg'" onMouseout="src='img1.jpg'">
+        </div>
+
+    </div>
+<h1>FORM</h1>
+   <p>Email</p>
+    <input type="text" id="myText"> 
+    <br>
+    <p>Password</p>
+    <input type="text" id="pass"> 
+    <br>
+    <p>Confirm Pssword</p>
+    <input type="text" id="confPass"> 
+  
+    <button type="button" onclick="myFunction()">Sign in </button> 
+  
+    <p id="demo1"></p> 
+    <p id="demo2"></p> 
+    <p id="demo3"></p> 
+
+    <h1 id="exp">Book description <a href="#" onclick="expand()"> click</a></h1>
+
+    <!-- CHAPTER  58-67 -->
+    <div> 
+        <h1> DOM </h1>
+         <div id="form-content" class="content"> 
+             <label for="first-name">First Name</label>
+              <input type="text" id="first-name" /> 
+              <label for="last-name">Last Name</label> 
+              <input type="text" id="last-name" /> 
+              <label for="email">Email</label> 
+              <input type="text" id="email" /> 
+            </div> <div id="main-content" class="content"><p class="render"> First Name : Alex</p><p class="render" id="lastName">Last Name: Bank</p> 
+                 <p class="render"> Email : alexbank@example.com</p> 
+        <p class="render"> Country : Pakistan </p>
+         <p class="render"> contact : +92 300 1234567</p>
+         </div> 
+         <button onclick="tryIT()"> tryit</button>
+        </div> 
+        <p id="p11"></p>
+        <p id="p12"></p>
+        <p id="p13"></p>
+
+    <script src="app.js">
+    </script>
+</body>
+</html>
